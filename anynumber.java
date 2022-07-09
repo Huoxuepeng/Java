@@ -10,7 +10,7 @@ public class equation {
         int sum = 0;
         System.out.println("enter a number: ");
         n = in.nextInt();
-        for(int i = 1; i < n; i++){
+        for(int i = 1; i <= n; i++){
             sum += i;
         }
         System.out.println("result = " +sum);
